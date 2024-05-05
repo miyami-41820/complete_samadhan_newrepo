@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Complete Samaadhan",
+    "slug": "CompleteSamaadhan",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/start_bck.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_fav.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.samarth_kodesia.completeSamaadhan",
+      "versionCode": 3,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/logo_fav.png"
+    }
+  }
+}
